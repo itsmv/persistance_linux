@@ -5,6 +5,6 @@ num_beeps=5
 
 # Loop to play the sound multiple times
 for ((i=0; i<$num_beeps; i++)); do
-    paplay /usr/share/sounds/freedesktop/stereo/bell.oga
+    aplay /usr/share/sounds/freedesktop/stereo/bell.oga
     sleep 1  # Adjust the delay between beeps if needed
 done
